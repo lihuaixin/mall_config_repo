@@ -10,10 +10,3 @@ spring:
     database: 6
     port: 6379
     password: ENC(kYjyUavJ/hWpppO1yvSIUotbAn2MeeOu)
-
-## 该配置节点为独立的节点，有很多同学容易将这个配置放在spring的节点下，导致配置无法被识别
-mybatis:
-  type-aliases-package: com.xxx.mall.mapper
-#  mapper-locations: classpath:mapper/*.xml
-  configuration:
-    map-underscore-to-camel-case: true
