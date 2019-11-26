@@ -1,0 +1,6 @@
+spring:
+  cloud:
+    gateway:
+      redis-rate-limiter:
+        apiReplenishRate: 10
+        apiBurstCapacity: 100
