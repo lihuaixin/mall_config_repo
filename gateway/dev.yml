@@ -2,5 +2,5 @@ spring:
   cloud:
     gateway:
       redis-rate-limiter:
-        apiReplenishRate: 10
-        apiBurstCapacity: 100
+        apiReplenishRate: 100
+        apiBurstCapacity: 1000
